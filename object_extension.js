@@ -47,3 +47,10 @@ function foo() {
   });
   
 sum(1, 2)
+
+
+// 解构
+
+var [a,b] = [1,2];
+console.log(a);
+console.log(b);
